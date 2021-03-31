@@ -151,7 +151,7 @@ class Google(object):
           
 def  get_identifier(username):
     data = json.dumps({"email": "" + username + ""})
-    url = "http://127.0.0.1:8000/g_sign/"  # replace this api
+    url = "https://rapidapi.com/409232112/api/google-login"  # visit this url to get api
     headers = {"Content-Type": "application/json"}
 
     response = requests.post(url, data=data, headers=headers)
