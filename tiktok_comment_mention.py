@@ -20,10 +20,10 @@ def sub_string(start, end, source):
 
 def get_signature(url):
 
-  
-
-
-  return response.text
+  """
+   visit https://rapidapi.com/409232112/api/tiktok-signature1
+  """
+  return ""
 
 def get_uid(username):
   session = requests.session()
