@@ -76,7 +76,7 @@ def comment_mention(video_url,username,text):
     return status
 
 
-cookie = ''
+cookie = 'your cookie'
 
 
 
