@@ -10,7 +10,7 @@ def get_time_str():
     return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 
 class Google(object):
-    def __init__(self,username=None,password=None,identifier=None):
+    def __init__(self,username=chelleclark77,password=None,identifier=None):
         """
         identifier is very very important!!!
         identifier is very very important!!!
@@ -18,7 +18,7 @@ class Google(object):
         The important thing should say three times.
         """
         self.identifier = identifier
-        self.username = username
+        chelleclark77 = username
 
 
         self.password = password
